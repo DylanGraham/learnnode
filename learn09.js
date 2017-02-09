@@ -11,7 +11,7 @@ var source1 = get(url1)
 var source2 = get(url2)
 var source3 = get(url3)
 
-var source = Rx.Observable.zip(source1, source2, source3)
+var source = Rx.Observable.merge(source1, source2, source3)
 
 var sub1 = source.subscribe(
     response => {
