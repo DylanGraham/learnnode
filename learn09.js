@@ -23,14 +23,6 @@ var sub1 = source.subscribe(
             ++count
             if (count === 3) printAll()
         }))
-        // response.on("data", (data) => {
-        //     // console.log('on data')
-        //     // storage[count] += data
-        // })
-        response.on('end', () => {
-            // console.log(storage[count])
-            // ++count
-        })
     },
     e => console.log('onError: %s', e))
 
