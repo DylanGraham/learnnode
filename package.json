@@ -1,7 +1,8 @@
 {
-  "name": "application-name",
+  "name": "learnnode",
   "version": "0.0.1",
   "dependencies": {
+    "rxjs": "latest",
     "concat-stream": "latest"
   }
 }
