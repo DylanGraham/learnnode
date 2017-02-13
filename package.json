@@ -4,5 +4,8 @@
   "dependencies": {
     "rxjs": "latest",
     "concat-stream": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5"
   }
 }
