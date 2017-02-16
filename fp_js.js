@@ -17,4 +17,8 @@ var fruits = [
     }
 ];
 var fruitNames = fruits.map(function (item) { return item.name; });
+var weight = fruits.reduce(function (result, item) {
+    return result + item.weight;
+}, 0);
 console.log(fruitNames);
+console.log(weight + " kg");

@@ -19,4 +19,9 @@ const fruits = [
 
 const fruitNames = fruits.map(item => item.name);
 
+const weight = fruits.reduce((result, item) => {
+    return result + item.weight;
+}, 0);
+
 console.log(fruitNames);
+console.log(weight + " kg");
