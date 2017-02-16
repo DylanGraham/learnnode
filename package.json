@@ -2,8 +2,9 @@
   "name": "learnnode",
   "version": "0.0.1",
   "dependencies": {
+    "concat-stream": "latest",
     "rxjs": "latest",
-    "concat-stream": "latest"
+    "strftime": "^0.10.0"
   },
   "devDependencies": {
     "@types/node": "^7.0.5"
