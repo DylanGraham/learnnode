@@ -1,10 +1,17 @@
 {
   "name": "learnnode",
   "version": "0.0.1",
+  "description": "Learn you node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanGraham/learnnode.git"
+  },
+  "license": "GPL-3.0",
   "dependencies": {
     "concat-stream": "latest",
     "rxjs": "latest",
-    "strftime": "^0.10.0"
+    "strftime": "^0.10.0",
+    "through2-map": "latest"
   },
   "devDependencies": {
     "@types/node": "^7.0.5"
