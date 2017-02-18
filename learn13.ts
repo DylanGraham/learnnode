@@ -13,11 +13,16 @@ const server = http.createServer((req, res) => {
             "minute": date.getMinutes(),
             "second": date.getSeconds()
         };
-        console.log(json_date);
+        res.write(JSON.stringify(json_date));
+        res.end();
     }
 
     if (URL.pathname === '/api/unixtime') {
-        console.log("UNIX!");
+        const json_date = {
+          "unixtime": date.getTime()
+        };
+        res.write(JSON.stringify(json_date));
+        res.end();
     }
 });
 
